@@ -3,20 +3,15 @@
 using namespace std;
 int main()
 {
-  const double tax = 6.75;
-  const double tip = 20;
-  double mealcharge = 88.67;
-  double tipamount;
-  double taxamount;
+  int num1, num2, num3, num4, num5;
   double total;
+  double average;
 
   /* ************************************
     Code your program here
   ************************************ */
 
+  cout << "Total sum: " << total << endl;
   cout << setprecision(2) << fixed;
-  cout << "Meal Cost: " << mealcharge << endl;
-  cout << "Tax Amount: " << taxamount << endl;
-  cout << "Tip Amount: " << tipamount << endl;
-  cout << "Total Amount: " << total << endl;
+  cout << "Average: " << average << endl;
 }
